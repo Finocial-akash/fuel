@@ -1,0 +1,218 @@
+/*---------- BB Starter 4 --------*/
+/*blog bookmarks*/
+.blog-content .social-bookmarks ul{list-style:none;overflow:hidden;padding-left:0;}
+.blog-content .social-bookmarks li{float:left;display:block;height:32px;margin-right:5px;width:32px;background-repeat: no-repeat;}
+.blog-content .social-bookmarks li a{background-color:transparent;background-position:top left;background-repeat:no-repeat;display:block;height:100%;text-indent:-9999px}
+.blog-content .social-bookmarks #sb-digg{background-image:url(../../../../../stylesheets/framework/images/digg_32.png)}
+.blog-content .social-bookmarks #sb-technorati{background-image:url(../../../../../stylesheets/framework/images/technorati-32x32.png)}
+.blog-content .social-bookmarks #sb-delicious{background-image:url(../../../../../stylesheets/framework/images/delicious_32.png)}
+.blog-content .social-bookmarks #sb-reddit{background-image:url(../../../../../stylesheets/framework/images/reddit_32.png)}
+.blog-content .social-bookmarks #sb-stumbleupon{background-image:url(../../../../../stylesheets/framework/images/stumbleupon_32.png)}
+.blog-content .social-bookmarks #sb-mixx{background-image:url(../../../../../stylesheets/framework/images/mixx_32.png)}
+.blog-content .social-bookmarks #sb-facebook{background-image:url(../../../../../stylesheets/framework/images/facebook_32.png)}
+.blog-content .social-bookmarks #sb-designfloat{background-image:url(../../../../../stylesheets/framework/images/designfloat-32x32.png)}
+.blog-content .social-bookmarks #sb-googlebookmarks{background-image:url(../../../../../stylesheets/framework/images/google_32.png)}
+.blog-content .social-bookmarks #sb-twitter{background-image:url(../../../../../stylesheets/framework/images/twitter_32.png)}
+
+/*old carousel*/
+html #Main .yui-carousel{width:auto !important}
+html #Main .yui-carousel-element{width:100%;overflow:visible}
+html #Main .yui-carousel .yui-carousel-item-selected{border:none;margin:0;}
+html #Main .yui-carousel-content{width:auto !important;padding:0}
+html #Main .component-group.carousel .component{position:absolute;overflow:hidden;width:100%}
+html #Main .carousel.yui-skin-sam .component.second.yui-carousel-item-selected{margin-left:-2px}
+html #Main .carousel.yui-skin-sam .component.third.yui-carousel-item-selected{margin-left:-4px}
+html #Main .carousel.yui-skin-sam .component.fourth.yui-carousel-item-selected{margin-left:-6px}
+html #Main .carousel.yui-skin-sam .component.fifth.yui-carousel-item-selected{margin-left:-10px}
+html #Main .carousel.yui-skin-sam .component.sixth.yui-carousel-item-selected{margin-left:-12px}
+html #Main .carousel.yui-skin-sam .component.seventh.yui-carousel-item-selected{margin-left:-14px}
+html #Main .carousel.yui-skin-sam .component.eighth.yui-carousel-item-selected{margin-left:-16px}
+html #Main .carousel.yui-skin-sam .component.ninth.yui-carousel-item-selected{margin-left:-18px}
+html #Main .component-group.carousel .component.first.yui-carousel-item-selected{margin-left:0}
+
+/*---------- Common --------*/
+
+#EditorDiv #Main, #Main .void-main, #Body,  #Header, #Footer {padding:0;width:100%;margin:auto;position:;}/*------Site Wide width-------*/
+#Header .void-header, #Footer .void-footer, #Content {width:1060px;margin:auto;position:relative;}
+
+* {margin:0;padding:0;-webkit-font-smoothing:antialiased; box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;margin-top:0;}
+img {max-width:100%;}
+#Content blockquote {margin-left:20px;width: 34%;float: right;border-left: 8px solid #000;/*border-left: 8px solid #ed217c;*/padding-left: 11px;font-size:17px;}
+#Main #Content blockquote.error {margin-left: 0;width: 100%;float: none;border-left: 0;padding-left: 41px;font-size: 17px;text-align: center;border: 1px solid #000;background: none;}
+
+#EditorDiv #PrimaryNavigation {display:none;}
+#EditorDiv #Content #Content-Text {width:100%;}
+#EditorDiv #Content.left-column #Content-Left {width:23.5%;float:left;}
+#EditorDiv #Content.left-column #Content-Text {width:74%;float:right;}
+#EditorDiv #Content.right-column #Content-Right {width:23.5%;float:right;}
+#EditorDiv #Content.right-column #Content-Text {width:74%;float:left;}
+
+#Main .catchall {clear:both;}
+
+.module-row {margin-top:20px;}
+
+.module-row .component {float:left;}
+
+.module-row .module.of-two {width:49%;}
+.module-row .module.first.of-two {margin-right:20px;}
+
+.module-row .module.of-three {width:32.07%;}
+.module-row .module.first.of-three {margin-right:20px;}
+.module-row .module.second.of-three {margin-right:20px}
+
+.module-row .module.of-four {width:23.55%;}
+.module-row .module.first.of-four {margin-right:20px;}
+.module-row .module.second.of-four {margin-right:20px}
+.module-row .module.third.of-four {margin-right:20px;}
+
+
+/*---------- Typeface Options --------*/
+body {font:normal 13px/1.5em Arial, sans-serif;color:#656468;}
+body a { color: #000; }
+h3.empty {display: none;}
+h1 {font-size:35px;padding-bottom:.3em;}
+h2 {font-size:30px;padding-bottom:.3em;}
+h3 {font-size:25px;padding-bottom:.3em;}
+h4 {font-size:18px;padding-bottom:.3em;}
+h5 {font-size:15px;padding-bottom:.3em;}
+h6 {font-size:13px;padding-bottom:.3em;}
+ul, ol {padding-left:35px;}
+p,ul,ol {padding-bottom:8px;}
+ul ul, ol ol {padding-bottom:0;}
+dt {font-weight:bold;}
+a {color:#ed217c;text-decoration: none;} 
+strong {font-weight:bold;}
+em {}
+
+table {border-collapse: collapse;width:100%;}
+table thead {border-bottom:2px solid #c5c5c5;text-align:left;}
+table tr:nth-child(even) {background:#f1f1f1;}
+table td, table th {padding:8px;}
+
+.actioncall, .blog #Content .blog-module .archives, .blog-read-more a {display: inline-block;background: #000;/*background: #ed217c;*/padding: 8px;color: #fff;margin-top:10px;}
+.list-unstyled {padding-left:0;list-style:none;}
+
+/*------ Common -------*/
+
+
+#Breadcrumbs {display:none;}
+
+/*------ Header -------*/
+#Header {height:155px;background:url('') repeat-x 0 0 transparent;border-bottom:1px solid #bcbdc0;}
+#Header .extra {position:absolute;width:100%;top:20px;}
+#Header .extra .component {float:right;width:200px;text-align:right;}
+#Header .extra .component p {padding-bottom:3px;}
+#Header .extra .component a {font-weight:bold;font-size:16px;}
+#Header h1 a {z-index: 200;background:url('../../layouts/images/logo.jpg') no-repeat 0 0 transparent;display:block;position: absolute; width: 340px; height: 115px; top: 20px; left: 0; overflow: hidden;}
+#Header h1 a span {display:none;}
+
+/*------ Framework PrimaryNav-------*/
+#PrimaryNavigation ul li ul{display:none;position:relative;top:25px;left:0;width:auto}
+#PrimaryNavigation ul li:hover,#PrimaryNavigation ul li.active{}#PrimaryNavigation ul li:hover ul{display:block}
+#PrimaryNavigation ul li ul li{border:none;border-top:1px solid #000;display:block;height:auto;width:100%;float: none;}
+
+#PrimaryNavigation { width: 100%; height: 27px; position: absolute; top: 70px; right: 0; z-index: 10; }
+#PrimaryNavigation .primarynav {padding-left:0;list-style-type: none; float: right; }
+#PrimaryNavigation .primarynav li {width:auto;float:left; height: auto; position:relative;}
+#PrimaryNavigation .primarynav li a {color:#fff;display: block; padding:0 20px;background: #bcbdc0;line-height: 62px;}
+#PrimaryNavigation .primarynav li a:hover, #PrimaryNavigation .primarynav li.active > a  { background:#cdcccc;}
+#PrimaryNavigation .primarynav li ul { padding-left:0;position: absolute; top:62px; left: 0; width: auto; }
+#PrimaryNavigation .primarynav li ul li { border: none; float:none;}
+#PrimaryNavigation .primarynav li ul li a { white-space:nowrap;background:#bcbdc0;}
+#PrimaryNavigation .primarynav li ul li a { border-bottom: none; }
+#PrimaryNavigation .primarynav li ul li.end a {  }
+#PrimaryNavigation .primarynav li ul li a:hover {  }
+
+#PrimaryNavigation ul li ul{display:none;position:relative;top:25px;left:0;width:auto}
+#PrimaryNavigation ul li:hover,#PrimaryNavigation ul li:hover ul{display:block}
+#PrimaryNavigation ul li ul li{border:none;border-top:1px solid #000;display:block;height:auto;width:100%;float: none;}
+
+/*------ StockImage -------*/
+#StockImage {height:auto;}
+#StockImage h3 {display:none;} /*removes all h3 in StockImage - display:block; if you need h3*/
+#StockImage .camera_pag {} /*------ Dots for Camera Slider ---*/
+#StockImage .flex-slider-module {position:relative;}
+#StockImage .flexslider {border:0;background:none;border-radius:0;}
+#StockImage .flex-direction-nav li a {width:33px;background:url('../../layouts/images/bg_direction_nav.png') no-repeat 0 0 transparent;}
+#StockImage .flex-direction-nav li a.next {background-position:-70px;right:0;}
+#StockImage .flex-direction-nav li a.prev {left:0;}
+#StockImage .flex-control-nav {bottom:-20px;}
+#StockImage .flex-control-nav li a {background-image:url('../../layouts/images/bg_control_nav.png')}
+#StockImage .text-module, #StockImage .text-block-component {margin:20px auto;width:1080px;}
+#StockImage .flexslider .slides img {margin:auto;}
+#StockImage .flex-direction-nav li .next {right:0;}
+
+
+
+/*------ Body -------*/
+#Body #Content {margin-top:40px;}
+
+/*------ SubPage Common -------*/
+#Header h2 a {display:none;}
+.sub #Body #Content {margin-top:20px;}
+
+/*------ SubPage1 -------*/
+.subpage1 #Content h3 {text-align:center;}
+.subpage1 #Content .module-row {margin-top:20px;}
+
+/*------ SubPage2 -------*/
+.subpage2 #StockImage h3 {display:block;text-align:center;}
+.subpage2 #Content .module.first {margin-bottom:20px;}
+.subpage2 #Content .module.first h3 {text-align: center;}
+.subpage2 #Content .module-row h3 {color: #000;/*color:#ed217c;*/}
+.subpage2 #Content .module-row .module.first h3 {text-align:left;}
+.subpage2 #Content .module-row.third {clear:both;}
+.subpage2 #Content .module-row {width:100%;float:left;margin-right:10px;}
+.subpage2 #Content .module-row .module.of-two {width: 48.1%;}
+.subpage2 #Content.right-column #Content-Text {width:50%;float: left;}
+.subpage2 #Content.right-column #Content-Right {padding:0;margin-left:0;width:50%;float: right;background:none;}
+.subpage2 #Content.right-column #Content-Right .component {padding:0;background:none;}
+
+/*------ SubPage3 -------*/
+#Content.left-column #Content-Left {float:left;width:23.5%;margin-right:20px;}
+#Content.left-column #Content-Left .component {padding:10px;margin-bottom:20px; background:#e5e5e5;}
+#Content.left-column #Content-Text {float:right;width:74%;}
+
+/*------ SubPage4 -------*/
+#Content.right-column #Content-Right {float:right;width:23.5%;margin-left:1%;}
+#Content.right-column #Content-Right .component {padding:10px;background:#e5e5e5;margin-bottom:20px;}
+#Content.right-column #Content-Text {float:left;width:74%;}
+
+
+/*------ Blog - Left Column -------*/
+.blog #Content .component ul {list-style:none;padding:0;}
+.blog #Content .component ul li {padding:5px;}
+.blog #Content .component ul li:nth-child(odd) {background:#fdfdfd;}
+.blog #Content .blog-module ul li {padding:0;border-bottom:1px solid #fff;margin-bottom:5px;}
+.blog #Content .blog-module ul li:nth-child(odd) {background:transparent;}
+.blog #Content .blog-module h4.date {font-size:13px;font-weight:normal;}
+.blog #Content .blog-module p:nth-child(2) a {font-weight: bold;}
+.blog #Content .blog-content .blog {border-bottom:1px solid #BCBDC1;margin-bottom:20px;padding-bottom:20px;}
+.blog cite {margin-bottom:20px;display:block;}
+
+/*------ Footer -------*/
+#Footer {background:#bcbdc0;color:#fff;margin-top:20px;}
+#Footer a {color:#fff;}
+#Footer .component {padding:10px;}
+
+#Footer ul {list-style-type: none;padding-left:0;}
+
+#Footer .sub-nav-module  ul {list-style-type: none;padding-left:0;}
+#Footer .sub-nav-module  ul li {margin-right:20px;width:auto;float:left;}
+
+#Footer .module-row .sub-nav-module ul {list-style-type: none;padding-left:0;}
+#Footer .module-row .sub-nav-module ul li {margin-right:20px;width:auto;float:left;}
+
+#Footer .module-row .sub-nav-module.of-four ul {list-style-type: none;padding-left:0;}
+#Footer .module-row .sub-nav-module.of-four ul li {margin-right:0;width:50%;float:left;}
+
+#Footer .blog-module ul li {width:auto;float:none;}
+#Footer .blog-module h4 {padding-bottom:10px;}
+#Footer .blog-module .readmore a, #Footer .blog-module .archives {color: #000; /*color:#ed217c; */}
+#Footer .blog-module .readmore {text-align:right;}
+
+#Footer .sub-nav-module ul li ul {display:none;}
+#Footer .copyright-notice p {clear:both;width: 100%;text-align: center;line-height: 40px;padding-bottom:0;}
+
+.tinynav {display:none;}
+

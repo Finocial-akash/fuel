@@ -1,0 +1,72 @@
+.gas-price-module {
+	text-align: center;
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	color: black;
+}
+
+.gas-price-module input, .gas-price-module button {
+	box-sizing: border-box;
+	height: 50px;
+	border: none;
+	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.gas-price-module button {
+	background: none;
+	cursor: pointer;
+}
+
+.gas-price-module button.current-location {
+	width: 210px;
+	padding-right: 20px;
+	background: transparent url( 'images/arw.png' ) no-repeat right center;
+}
+
+.gas-price-module button.search-zip {
+	width: 40px;
+	margin: 0 0 0 -45px;
+}
+
+.gas-price-module button.go-back {
+	height: 30px;
+	padding: 0 5px;
+}
+
+.gas-price-module input.zip-field {
+	width: 210px;
+	padding-right: 25px;
+	background: #56c8ea;
+}
+
+.gas-price-module input.zip-field:focus, .gas-price-module input.zip-field:valid { padding-right: 0; }
+
+.gas-price-module .GasPriceStep2 {
+	line-height: 1.25;
+	font-size: 24px;
+}
+
+.gas-price-module .zip-code {
+	padding: 0;
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.gas-price-module ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.gas-price-module input::-moz-placeholder { opacity: 1; color: white; text-align: center; }
+.gas-price-module input::-webkit-input-placeholder { opacity: 1; color: white; text-align: center; }
+.gas-price-module input::placeholder { opacity: 1; color: white; text-align: center; }
+.gas-price-module input:-moz-placeholder { opacity: 1; color: white; text-align: center; }
+.gas-price-module input:-ms-input-placeholder { opacity: 1; color: white; text-align: center; }
+
+.gas-price-module input:focus::-moz-placeholder { color: transparent !important; }
+.gas-price-module input:focus::-webkit-input-placeholder { color: transparent !important; }
+.gas-price-module input:focus::placeholder { color: transparent !important; }
+.gas-price-module input:focus:-moz-placeholder { color: transparent !important; }
+.gas-price-module input:focus:-ms-input-placeholder { color: transparent !important; }

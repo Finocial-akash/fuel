@@ -1,0 +1,55 @@
+/*
+	Blockquote styles
+*/
+
+blockquote.info, blockquote.error, blockquote.allgood
+{
+	background-color: #dbffd1;
+	border-top: 1px dotted #a1d97e;
+	_border-top: 1px solid #a1d97e; /* dotting looks bad in IE, revert to solid */
+	border-bottom: 1px dotted #a1d97e;
+	_border-bottom: 1px solid #a1d97e; /* dotting looks bad in IE, revert to solid */
+	color:#555;
+	padding: 12px;
+	padding-left: 36px;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-image: url(images/blockquote.html);
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+
+blockquote.info, blockquote.error, blockquote.allgood
+{
+	background-position: 10px center;
+}
+
+blockquote.info
+{
+	background-image: url(images/blockquote_info.gif);
+}
+
+blockquote.error
+{
+	background-image: url(images/blockquote_error.gif);
+	background-color: #ffded5;
+	border-top: 1px dotted #d99d80;
+
+	border-bottom: 1px dotted #d99d80;
+}
+
+blockquote.allgood
+{
+	background-image: url(images/blockquote_allgood.gif);
+}
+
+blockquote p, #content blockquote p
+{
+	color:#555;
+	margin: 0px;
+	text-indent: 0px;
+}
+
+/* end of blockquote styles */

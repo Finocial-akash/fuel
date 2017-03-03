@@ -1,0 +1,84 @@
+/*---------- Responsive --------*/
+
+@media screen and (max-width: 1102px) {
+	/*
+	#Main .void-main, #Header,  #Footer {width:100%;margin:auto;}
+	#Body, #Header .void-header, #Footer .void-footer, #EditorDiv #Main {padding:0;width:960px;margin:auto;position:relative;}/*------Site Wide width-------*/
+	
+	#EditorDiv #Main, #Main .void-main, #Body,  #Header, #Footer {padding:0;width:100%;margin:auto;position:;}/*------Site Wide width-------*/
+	#Header .void-header, #Footer .void-footer, #Content {width:960px;margin:auto;position:relative;}
+
+	#StockImage .text-module, #StockImage .text-block-component {margin:20px;width:100%;}
+
+	.module-row {margin-top:0;}
+	.component {margin-bottom:20px;}
+
+	.module-row .module.first.of-two {margin-right:2%;}
+
+	.module-row .module.of-three {width:31.8%;margin-right:0;}
+
+	.module-row .module.of-four {width:23%;margin-right:0;}
+
+	#Content.left-column #Content-Left {margin-right:1%;}
+}
+
+@media screen and (max-width: 960px) {
+	/*
+	#Main .void-main, #Header,  #Footer {width:100%;margin:auto;}
+	#Body, #Header .void-header, #Footer .void-footer, #EditorDiv #Main {padding:0;width:768px;margin:auto;position:relative;}/*------Site Wide width-------*/
+
+	#EditorDiv #Main, #Main .void-main, #Body,  #Header, #Footer {padding:0;width:100%;margin:auto;position:;}/*------Site Wide width-------*/
+	#Header .void-header, #Footer .void-footer, #Content {width:768px;margin:auto;position:relative;}
+
+	.module-row .module.first.of-two {margin-right:2%;}
+
+	.module-row .module.of-three {width:100%;margin-right:0;}
+	.module-row .module.of-four {width:100%;margin-right:0;}
+
+	.subpage2 #Content.right-column #Content-Right, .subpage2 #Content.right-column #Content-Text {width:100%;}
+	.subpage2 #Content .module-row {margin-right:0;}
+
+	#PrimaryNavigation {top:153px;}
+	#Header {height:235px;}
+}
+
+@media screen and (max-width: 767px) {
+	/*
+	#Main .void-main, #Header,  #Footer {width:100%;margin:auto;}
+	#Body, #Header .void-header, #Footer .void-footer, #EditorDiv #Main {padding:0;width:480px;margin:auto;position:relative;}/*------Site Wide width-------*/
+
+	#EditorDiv #Main, #Main .void-main, #Body,  #Header, #Footer {padding:0;width:100%;margin:auto;position:;}/*------Site Wide width-------*/
+	#Header .void-header, #Footer .void-footer, #Content {width:480px;margin:auto;position:relative;}
+
+	#Header {height:297px;}
+	#Header .extra {top:20px;position:relative;}
+	#Header .extra .component {width:100%;text-align:center;}
+	#Header h1 a {position:relative;margin:auto;}
+	#PrimaryNavigation {top:217px;}
+	.tinynav { text-indent:20px;color:#fff;font-size:25px;-webkit-appearance:none;display: block;width:100%; height:60px;padding:10px 0;background:#BCBDC0;border:0; }
+    .primarynav { display: none }
+    #Content.left-column #Content-Left, #Content.left-column #Content-Text  {width:100%;}
+    #Content.right-column #Content-Text, #Content.right-column #Content-Right {width:100%;}
+    .subpage4 #Content.right-column #Content-Right {padding:10px;background:#e5e5e5;float:right;width:100%;margin-left:0;}
+	.subpage4 #Content.right-column #Content-Text {float:left;width:100%;}
+	.module-row .module.of-two {width:100%;margin:20px 0;}
+}
+
+@media screen and (max-width: 480px) {
+	/*
+	#Main .void-main, #Header,  #Footer {width:100%;margin:auto;}
+	#Body, #Header .void-header, #Footer .void-footer, #EditorDiv #Main {padding:0 20px;width:100%;margin:auto;position:relative;}/*------Site Wide width-------*/
+
+	#EditorDiv #Main, #Main .void-main, #Body,  #Header, #Footer {padding:0;width:100%;margin:auto;position:;}/*------Site Wide width-------*/
+	#Header .void-header, #Footer .void-footer, #Content {width:100%;margin:auto;position:relative;}
+
+	#Content .module-row .module.of-two {width:100%;}
+}
+
+@media screen and (max-width: 320px) {
+
+	#Main .void-main, #Header,  #Footer {width:100%;margin:auto;}
+	#Body, #Header .void-header, #Footer .void-footer, #EditorDiv #Main {padding:0;width:100%;margin:auto;position:relative;}/*------Site Wide width-------*/
+}
+
+

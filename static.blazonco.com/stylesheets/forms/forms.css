@@ -1,0 +1,417 @@
+form.user-form
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: black;
+}
+
+form.user-form input[type='text'],
+form.user-form input[type='password']
+{
+	background: white url(images/input_bg.gif) repeat-x left top;
+	border: 1px solid #888888;
+	border-color: #888888 #9f9f9f #9f9f9f #888888;
+	padding: 2px 1px;
+}
+
+form.user-form fieldset, form.user-form div.section-heading, #Admin form.user-form fieldset
+{
+	border: none;
+	clear: both;
+	padding: 2em 1em 0 1em;
+	position: relative;
+}
+
+form.user-form div.fieldset-container fieldset,
+form.user-form fieldset.no-position,
+#Admin form.user-form div.fieldset-container fieldset,
+#Admin form.user-form fieldset.no-position
+{
+	position: static;
+}
+
+form.user-form div.fieldset-container
+{
+	position: relative;
+}
+
+form.user-form div.fieldset-container div.description,
+form.user-form div.fieldset-container div.validation-valid,
+form.user-form div.fieldset-container div.validation-invalid
+{
+	left: auto;
+	right: 0;
+	width: 33%;
+	top: 1em;
+}
+
+form.user-form div.section-heading
+{
+	padding-top: 1em;
+	border-bottom: 1px dotted #e2e2e2;
+}
+
+
+form.user-form div.section-heading p
+{
+	margin: 0.5em 0;
+	color: #666666;
+}
+
+form.user-form fieldset:hover
+{
+	background-color: #FFFFC9;
+}
+form.user-form fieldset:hover span.defaultSkin tbody {
+	background-color:#fff;
+}
+form.user-form fieldset.focused, form.user-form fieldset.focused:hover
+{
+	background-color: #FBF5B5;
+}
+
+form.user-form fieldset.with-description, 
+#Admin fieldset.with-description,
+form.user-form fieldset.validated
+{
+	margin-right: 25%;
+}
+
+form.user-form div.fieldset-container fieldset.with-description, 
+#Admin div.fieldset-container fieldset.with-description,
+form.user-form div.fieldset-container fieldset.validated
+{
+	margin-right: 33%;
+}
+
+#Admin form.user-form fieldset legend
+{
+	background-color: transparent;
+	font-size: 1em;
+	border-bottom: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+form.user-form fieldset legend label
+{
+	font-weight: bold;
+	position: relative;
+	top: 1.5em;
+	color: black;
+}
+
+#Admin form.user-form fieldset label
+{
+	border: none;
+	clear: none;
+	font-size: 1em;
+}
+
+form.user-form fieldset label, #Admin form.user-form fieldset label
+{
+	display: block;
+	margin: 0 0 .75em 0;
+}
+
+form.user-form fieldset label.focused span
+{
+	font-weight: bold;
+	color: black;
+}
+
+form.user-form fieldset label span
+{
+	display: block;
+	font-size: 75%;
+	color: #555555;
+
+}
+
+form.user-form fieldset div.description, 
+form.user-form fieldset div.validation-valid, 
+form.user-form fieldset div.validation-invalid
+{
+	visibility: hidden;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	width: 33%;
+
+}
+
+form.user-form fieldset div.description div.void,
+form.user-form fieldset div.validation-valid div.void, 
+form.user-form fieldset div.validation-invalid div.void
+{
+	margin-left: 9px;
+	border: 2px solid #aaccff;
+	background-color: #dde8f7;
+	padding-top: 1px;
+}
+
+form.user-form fieldset div.validation-valid div.void
+{
+	border-color: #aaffaa;
+	background-color: #ddffdd;
+	background: #ddffdd url(images/valid.png) no-repeat 8px center;
+}
+
+form.user-form fieldset div.validation-invalid div.void
+{
+	border-color: #ffaaaa;
+	background-color: #f7dddd;
+	background: #f7dddd url(images/exclamation.png) no-repeat 8px center;
+}
+
+form.user-form fieldset:hover div.description, 
+form.user-form fieldset.focused div.description,
+form.user-form fieldset.valid div.validation-valid, 
+form.user-form fieldset.invalid div.validation-invalid
+{
+	visibility: visible;
+}
+
+form.user-form fieldset div.description div.callout,
+form.user-form fieldset div.validation-valid div.callout,
+form.user-form fieldset div.validation-invalid div.callout
+{
+	width: 11px;
+	height: 21px;
+	background-image: url(images/callout.gif);
+	position: absolute;
+	left: 0;
+	top: 1em;
+}
+
+form.user-form fieldset div.validation-invalid div.callout
+{
+	top: 0;
+	background-image: url(images/callout_error.gif);
+}
+
+form.user-form fieldset div.validation-valid div.callout
+{
+	top: 0;
+	background-image: url(images/callout_good.gif);
+}
+
+form.user-form fieldset div.description p
+{
+	padding: 1em;
+	margin: 0;
+	font-size: 0.8em;
+	line-height: 1.5;
+}
+
+form.user-form fieldset label.left, 
+form.user-form fieldset.name-entry label.name-first,
+form.user-form fieldset.address-entry label.address-city,
+form.user-form fieldset.address-entry label.address-zip,
+#Admin form.user-form fieldset.address-entry label.address-zip,
+form.user-form fieldset.link-entry label.link-url
+{
+	float: left;
+	width: 49%;
+	clear: left;
+}
+
+form.user-form fieldset label.right,
+form.user-form fieldset.name-entry label.name-last,
+form.user-form fieldset.address-entry label.address-state,
+form.user-form fieldset.address-entry label.address-country, 
+form.user-form fieldset.link-entry label.link-text
+{
+	float: right;
+	width: 49%;
+}
+
+form.user-form fieldset label.left input,
+form.user-form fieldset label.right input,
+form.user-form fieldset label.left select,
+form.user-form fieldset label.right select,
+form.user-form fieldset.name-entry label.name-first input,
+form.user-form fieldset.name-entry label.name-last input,
+form.user-form fieldset.address-entry label input,
+form.user-form fieldset.address-entry label select,
+form.user-form fieldset.text-entry input,
+form.user-form fieldset.essential-entry input,
+form.user-form fieldset.link-entry label.link-url input,
+form.user-form fieldset.link-entry label.link-text input,
+form.user-form fieldset.email-entry label input
+{
+	width: 98%;
+	margin: 0 !important;
+}
+
+#Admin form.user-form fieldset.address-entry .address-country {
+	clear: both;
+}
+
+form.user-form fieldset.longtext-entry label textarea, form.user-form fieldset.essential-entry label textarea
+{
+	width: 98%;
+	margin: 0 !important;
+}
+
+form.user-form fieldset.phone-entry > label, form.user-form fieldset.time-entry > label
+{
+	float: left;
+}
+
+form.user-form fieldset label.choice input, #Admin form.user-form fieldset label.choice input
+{ 
+	margin: 0 0.8em 0 0 !important;
+	width: auto;
+}
+
+form.user-form fieldset.buttons, #Admin form.user-form fieldset.buttons
+{
+	text-align: right;
+	padding-bottom: 1em;
+}
+
+form.user-form fieldset.buttons:hover
+{
+	background-image: url(images/accept.png);
+	background-repeat: no-repeat;
+	background-position: 3em center;
+}
+
+form.user-form fieldset.date-entry input
+{
+	float: left;
+	margin-right: 4px;
+}
+
+form.user-form fieldset.date-entry.name-entry label.date input
+{
+	width: auto;
+}
+
+
+form.user-form fieldset.date-entry span
+{
+	clear: left;
+}
+
+form.user-form fieldset.date-entry span.calendar-button
+{
+	float: left;
+	clear: none;
+	width: 16px;
+	height: 16px;
+	padding: 0 !important;
+	margin: 6px 0 4px 0;
+	background: transparent url(images/calendar.png) no-repeat center;
+}
+
+form.user-form fieldset.time-entry label.time-ampm
+{
+	margin-left: 1em;
+}
+
+form.user-form fieldset.time-entry label.time-ampm select
+{
+	width: 5em;
+}
+
+form.user-form fieldset.rating-entry label.rating {
+	float:left;
+	position:relative;
+	width:21px;
+}
+
+#Admin form.user-form fieldset.rating-entry label.rating input
+{
+	margin: 0;
+}
+form.user-form fieldset.rating-entry label.rating input {
+	visibility:hidden;
+}
+form.user-form fieldset.rating-entry label.rating span,
+#Admin form.user-form fieldset.rating-entry label.rating span
+{
+	background:transparent url(images/stars.gif) no-repeat top right;
+	cursor:pointer;
+	display:block;
+	left:0;
+	text-indent:-9999em;
+	position:absolute;
+	top:0;
+	width:14px;
+	padding: 0;
+}
+form.user-form fieldset.rating-entry label.rating span:hover, 
+form.user-form fieldset.rating-entry label.rating.on span,
+#Admin form.user-form fieldset.rating-entry label.rating span:hover, 
+#Admin form.user-form fieldset.rating-entry label.rating.on span
+{
+	background-position:top left;
+}
+
+div.calendar
+{
+	z-index: 100;
+}
+
+form.user-form fieldset.gallery-entry input, form.user-form fieldset.files-entry input
+{
+	float: left;
+	margin-right: 4px;
+	width:300px;
+}
+
+
+form.user-form fieldset.gallery-entry span, form.user-form fieldset.files-entry span
+{
+	clear: left;
+}
+
+form.user-form fieldset.gallery-entry span.image-folder-button {
+	background:url('images/folder_image_inactive.png') no-repeat left top;
+	clear:none;
+	float:left;
+	height:16px;
+	margin:6px 0 4px;
+	padding:0px !important;
+	width:16px;
+}
+form.user-form fieldset.gallery-entry span.image-folder-button:hover {
+	background-image:url('images/folder_image.png');
+	cursor:pointer;
+}
+form.user-form fieldset.files-entry span.files-folder-button {
+	background:url('images/folder_explore_inactive.png') no-repeat left top;
+	clear:none;
+	float:left;
+	height:16px;
+	margin:6px 0 4px;
+	padding:0px !important;
+	width:16px;
+}
+form.user-form fieldset.files-entry span.files-folder-button:hover {
+	background-image:url('images/folder_explore.png');
+	cursor:pointer;
+}
+
+form.user-form fieldset label.disabled { opacity: 0.5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); }
+
+form.user-form fieldset.big-validation.validated .validation-valid div.void, form.user-form fieldset.big-validation.validated .validation-invalid div.void
+{
+	padding:0 1em 0 32px;
+}
+
+form.user-form div.fieldset-container fieldset.big-validation.validated {
+margin-right:50%;
+}
+
+form.user-form fieldset.big-validation.validated .validation-valid, form.user-form fieldset.big-validation.validated .validation-invalid {
+left:auto;
+right:0;
+top:3em;
+width:50%;
+}
+
+.calendar { z-index:999; }

@@ -1,0 +1,45 @@
+#Main.form-one #Header, #Main.form-one #Footer { display: none; }
+
+h3 {color:inherit;}
+#Main form.user-form {color:#666;width:100%;font-family:inherit;}
+#Main form.user-form fieldset, #Main  form.user-form div.section-heading, #Admin form.user-form fieldset {padding:0;margin-bottom:10px;}
+#Main form.user-form fieldset label {margin-bottom:5px;font-size:16px;margin:0;font-weight:400;}
+#Main form.user-form fieldset label.choice {height:25px;font-weight:300;}
+#Main form.user-form fieldset legend {margin-bottom:5px;}
+#Main form.user-form fieldset label span {color:#3F3F3F;}
+#Main form.user-form fieldset legend label {top:0;color:#666;}
+#Main form.user-form fieldset:hover, #Main form.user-form fieldset.focused, #Main form.user-form fieldset.focused:hover { background: none; }
+#Main form.user-form fieldset label.left input, #Main form.user-form fieldset label.right input, #Main form.user-form fieldset label.left select, #Main form.user-form fieldset label.right select, #Main form.user-form fieldset.name-entry label.name-first input, #Main form.user-form fieldset.name-entry label.name-last input, #Main form.user-form fieldset.address-entry label input, #Main form.user-form fieldset.address-entry label select, #Main form.user-form fieldset.text-entry input, #Main form.user-form fieldset.essential-entry input, #Main form.user-form fieldset.link-entry label.link-url input, #Main form.user-form fieldset.link-entry label.link-text input, #Main form.user-form fieldset.email-entry label input, #Main form.user-form textarea { width: 100%; }
+#Main form.user-form fieldset label.left, #Main form.user-form fieldset.name-entry label.name-first, #Main form.user-form fieldset.address-entry label.address-city, #Main form.user-form fieldset.address-entry label.address-zip, #Main #Admin form.user-form fieldset.address-entry label.address-zip, #Main form.user-form fieldset.link-entry label.link-url{width:48.9%;}
+#Main form.user-form input, #Main form.user-form textarea {text-indent:10px;color:#666;font-size:18px;font-weight:100;font-family:inherit;border-radius:4px;height:35px;background:#fff;border:1px solid #999;}
+#Main form.user-form textarea {width:100%;height:75px;padding:5px 0;}
+#Main form.user-form div.section-heading {border-bottom:1px solid #999;}
+#Main form.user-form fieldset.address-entry label select {width:103%;}
+#Main form.user-form .time-ampm {margin-left:4px;width:50px;}
+#Main form.user-form .radio-entry input, #Main form.user-form .checkbox-entry input {height:auto;color:#666;}
+#Main form.user-form button {cursor:pointer;background:#494949;color:#fff;border:0;padding:5px; height:35px;border-radius:4px;}
+#Main form.user-form legend {display: none;}
+#Main form.user-form fieldset.radio-entry legend, #Main form.user-form fieldset.checkbox-entry legend  {display: block;}
+#Main form.user-form input[type='text'], #Main form.user-form input[type='password'] {padding:0;}
+
+html form.user-form div.section-heading p {color:inherit;}
+
+
+#Main form.user-form select {
+font-size: 14px;
+font-family: inherit;
+padding: 5px 15px 5px 5px;
+width: 100%;
+background:  #fff url(../../bbplayground/dropdown_arrow3.png)no-repeat;
+background-position: 99% 11px;
+border: 0;
+color: #666;
+border:1px solid #999;
+-webkit-appearance: none;
+-moz-appearance: none;
+text-indent: 0.01px;
+text-overflow: '';
+height: 35px;
+border-radius: 4px;
+font-weight:300;
+}

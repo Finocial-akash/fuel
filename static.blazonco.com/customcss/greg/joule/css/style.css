@@ -1,0 +1,579 @@
+@import url(../../../../templates/custom/buildingblocks/forms/styleD.css);
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);*/
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700);*/
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700');*/
+
+
+
+h3 {color:inherit;}
+html form.user-form {color:#666;width:100%;font-family:inherit;}
+html form.user-form fieldset, html  form.user-form div.section-heading, #Admin form.user-form fieldset {padding:0;margin-bottom:10px;}
+html form.user-form fieldset label {margin-bottom:5px;font-size:16px;margin:0;font-weight:400;}
+html form.user-form fieldset label.choice {height:25px;font-weight:300;}
+html form.user-form fieldset legend {margin-bottom:5px;}
+html form.user-form fieldset label span {color:#3F3F3F;}
+html form.user-form fieldset legend label {top:0;color:#666;}
+html form.user-form fieldset:hover, html form.user-form fieldset.focused, html form.user-form fieldset.focused:hover { background: none; }
+html form.user-form fieldset label.left input, html form.user-form fieldset label.right input, html form.user-form fieldset label.left select, html form.user-form fieldset label.right select, html form.user-form fieldset.name-entry label.name-first input, html form.user-form fieldset.name-entry label.name-last input, html form.user-form fieldset.address-entry label input, html form.user-form fieldset.address-entry label select, html form.user-form fieldset.text-entry input, html form.user-form fieldset.essential-entry input, html form.user-form fieldset.link-entry label.link-url input, html form.user-form fieldset.link-entry label.link-text input, html form.user-form fieldset.email-entry label input, html form.user-form textarea { width: 100%; }
+html form.user-form fieldset label.left, html form.user-form fieldset.name-entry label.name-first, html form.user-form fieldset.address-entry label.address-city, html form.user-form fieldset.address-entry label.address-zip, html #Admin form.user-form fieldset.address-entry label.address-zip, html form.user-form fieldset.link-entry label.link-url{width:48.9%;}
+html form.user-form input, html form.user-form textarea {text-indent:10px;color:#666;font-size:18px;font-weight:100;font-family:inherit;border-radius:4px;height:35px;background:#fff;border:1px solid #999;}
+html form.user-form textarea {width:100%;height:75px;padding:5px 0;}
+html form.user-form div.section-heading {border-bottom:1px solid #999;}
+html form.user-form fieldset.address-entry label select {width:103%;}
+html form.user-form .time-ampm {margin-left:4px;width:50px;}
+html form.user-form .radio-entry input, html form.user-form .checkbox-entry input {height:auto;color:#666;}
+html form.user-form button {cursor:pointer;background:#494949;color:#fff;border:0;padding:5px; height:auto;border-radius:4px;}
+html form.user-form legend {display: none;}
+html form.user-form fieldset.radio-entry legend, html form.user-form fieldset.checkbox-entry legend  {display: block;}
+html form.user-form input[type='text'], html form.user-form input[type='password'] {padding:0;}
+
+html form.user-form div.section-heading p {color:inherit;}
+
+   
+html form.user-form select {
+font-size: 14px;
+font-family: inherit;
+padding: 5px 15px 5px 5px;
+width: 100%;
+background:  #fff url(../../../../templates/custom/bbplayground/dropdown_arrow3.png)no-repeat;
+background-position: 99% 11px;
+border: 0;
+color: #666;
+border:1px solid #999;
+-webkit-appearance: none;
+-moz-appearance: none;
+text-indent: 0.01px;
+text-overflow: '';
+height: 35px;
+border-radius: 4px;
+font-weight:300;
+}
+
+html body {overflow-x:hidden; /*font-family:'Open Sans', Arial, sans-serif;*/ font-family: 'Roboto', Arial, sans-serif; color:#707070;font-size:16px!important;line-height:24px;}
+html body.home {opacity:0;} 
+html body#BlazoncoAdmin  {opacity:1;}
+html #Main {position:relative;box-shadow: -4px 0px 4px -3px #000;background:#fff;}
+/*html body.secureauth {overflow-x:scroll;}*/
+html form.user-form button,html a.actioncall, html #Content a.actioncall, html .home .section6 form.user-form fieldset.buttons button, #Main form.user-form button, html .blog-read-more a, html .blog #Content .blog-module .archives, html button  {cursor:pointer;border-radius:5px;padding:15px 40px;font-size:17px;font-weight:bold;background:#53c8ea;color:#fff!important;text-transform: uppercase;border:0;}
+html h3 {color:#313131;font-size:23px;}
+html h4 {color:#313131;font-size:40px;line-height:40px;}
+html #Body #Content {margin-top:90px;}
+html #Header .void-header, html #Footer .void-footer, html #Content {width:100%;}
+html .section {width:100%;overflow:hidden;}
+html .section-void {width:1140px;margin:auto;}
+html #Main form.user-form input, html #Main form.user-form textarea {font-weight: normal;font-size:17px;font-style: italic;}
+html #Main form.user-form button {height:auto;}
+html h5 {font-size:19px;font-weight:normal;}
+button[disabled=disabled], button:disabled {background:#DCDCDC;cursor:auto;}
+html .fancybox-wrap {width:350px!important;}
+html .fancybox-inner {width:100%!important;}
+html .fancybox-wrap a {color:#53C8EA}
+html .module-row .module.of-three {
+    width: 32.15%;
+}
+html .module-row .module.of-five {width:100%;}
+html #EditorDiv #Header {z-index:100;}
+html .panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
+
+html :target:before {
+content:"";
+display:block;
+height:90px; /* fixed header height*/
+margin:-90px 0 0; /* negative fixed header height */
+}
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+html table tr:nth-child(even) {background:none;}
+
+
+/*redesign of sign up forms minor********/
+
+body #RefuelScheduleForm table tbody td, body #RefuelScheduleForm table th, body #RefuelScheduleForm table thead, body #RefuelScheduleForm table {border:none; color:#3a3a3a; line-height:2.4; font-size:17px;}
+#RefuelScheduleForm table thead tr, #RefuelScheduleForm table tbody tr {border-top:1px solid #e5e6e7;}
+
+ #Main form.user-form#RefuelScheduleForm select   {background-position: 97% 9px; background-size:20px;}
+html body #RefuelSteps {border:none;}
+html body #RefuelSteps li {font-size:18px; font-style:italic; font-weight:700;}
+
+#Main form.user-form#RefuelScheduleForm #AddCreditCardForm select {padding-right:22px;}
+
+/*html #RefuelScheduleForm.user-form #RefuelScheduleSection fieldset label.quarter {width:25%;}*/
+
+/*end redesign*/
+
+html #Header {height:100px;position:fixed;z-index:10000;background:#fff;transition:all .6s;}
+html #EditorDiv #Header {position:relative;}
+html #EditorDiv #Header .extra {height:100px;}
+
+
+html #Header.sticky {z-index:1000;height:60px;}
+html #Header .void-header {width:100%;}
+html #Header h1 a {width:255px;transition:all .6s;margin-left:20px;background:url('../../../../../joulerefuel.blazonco.com/images/logo.jpg') no-repeat 0 0 transparent;height:45px;position:relative;margin:auto;}
+html #Header h1 a.sticky {top:5px;}
+html #Header .extra {right:20px;top:35px;transition:all .6s;}
+html #Header .extra.sticky {top:16px;}
+html #Header .extra, html #Header .extra a  {text-transform:uppercase;color:#707070;font-size:18px;font-weight:bold;}
+html #Header .extra .component {width:auto;}
+html #Header .extra .component a:nth-child(1) {color:#53C8EA;}
+html #Header .client-login-module {display:none;}
+html #Header a.createaccount {color:#53c8ea;}
+html #Header .extra a {margin-left:20px;}
+html #Header .extra .module.fourth {position:absolute;margin-left:20px;}
+
+html #Main #Header .loggedout {display:inline;}
+html #Main #Header .loggedin {display:none;}
+html #Main.logged-in #Header .loggedin {display:inline;}
+html #Main.logged-in #Header .loggedout {display:none;}
+
+html #PrimaryNavigation {top:19px;margin-right:20px;display: none;}
+html #PrimaryNavigation .primarynav li a {text-transform:uppercase;background:none;color:#707070;font-size:18px;font-weight:bold;}
+html #PrimaryNavigation .primarynav li.first a {color:;}
+html #PrimaryNavigation .primarynav li a:hover, html #PrimaryNavigation .primarynav li.active > a {background:none;}
+
+html #Menu {background:#3E3E3E;padding:20px;overflow:scroll;}
+html #Menu a {display:block;color: #ffffff;font-weight:bold;text-transform: uppercase;transition:all .2s;}
+html #Menu a:hover {text-indent:5px;}
+html #Menu .actioncall {padding:11px 16px;text-align:center;margin-bottom:20px;}
+html #Menu .actioncall:hover {text-indent:0;}
+
+html #StockImage {padding-top:100px;min-height:564px;top:100px;transition:all .6s;}
+/*html .home #StockImage {height:616px;background:url('//joulerefuel.blazonco.com/images/stock_image.jpg');background-size:cover;}*/
+html .home #StockImage {height:616px;background:url('../../../../../joulerefuel.blazonco.com/images/stock_image2.jpg') center 0 transparent;background-size:cover;}
+
+
+html .home #StockImage.sticky {}
+html .home #StockImage .flexslider .slides img {width:100%;}
+html .home #StockImage .text-block-component {z-index:100;position:relative;top:52%;width:100%;}
+html .home #StockImage .text-block-component .content {width:1060px;margin-bottom:50px;margin:auto;}
+html  #StockImage .text-block-component h3, html  #StockImage  h3  {line-height:40px;display:block;font-size:40px;font-weight:bold;border-color:#191919;color:#999999;text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.76);}
+html  #StockImage .text-block-component h1, html  #StockImage  h1  {margin-bottom:50px;line-height:10px;display:block;font-size:58px;font-weight:bold;border-color:#191919;color:#fff;text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.76);}
+html .sub #StockImage .text-module {width:100%;}
+html #StockImage p {color: #7f7f7f;
+    border-color:#191919;
+    font-size: 26px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.76);
+    font-weight: bold;
+    line-height: 19px;}
+
+html #StockImage p a {text-shadow:none;}
+html #StockImage h3.title {display:none;}
+
+html .pricing .section2 .component, html .home .section2 .component, html .home .section3 .component, html .home .section5 .component, html .service-areas .section1 .component, html .service-areas .section2 .component  {margin-bottom:90px;}
+
+html .home .section1 > .module {margin-bottom:40px;}
+html .home #Content .module-row.second .module.second, html .home #Content .module-row.third .module.first, html .home #Content .module-row.fourth .module.second, html .home #Content .module-row.fifth .module.first  {padding-top:93px;}
+html .home .section1 .module-row {margin-top:0;margin-bottom:0;}
+html .home .section1 .section-void {width:900px;}
+html .section1 .module-row .module.of-two {width:48%;}
+
+html .home .section2 {background-image:url('../../../../../joulerefuel.blazonco.com/images/stationary.jpg');margin-top:90px;padding-top:90px;padding-bottom:90px;color:#fff;}
+html .home .section2 h4, html .home .section2 h3 {color:#fff;}
+html .home .section2 .module.seventh {margin-bottom:0;}
+
+html .home .section3 {padding-top:90px;}
+/*html .home .section3 .module-row p {font-size:12px;}*/
+/*html .home .section3 .module-row h3 {font-size:14px;text-transform: uppercase;}*/
+html .home .section3 .module-row .module {padding-left:45px;}
+html .home .section3 .module-row.ninth .module {margin-bottom:50px;}
+html .home .section3 .module-row.ninth .module.first {background:url('../../../../../joulerefuel.blazonco.com/images/icons/fillups_icon.png') no-repeat 0 0 transparent;}
+html .home .section3 .module-row.ninth .module.second {background:url('../../../../../joulerefuel.blazonco.com/images/icons/low-cost-icon.png') no-repeat 0 0 transparent;}
+html .home .section3 .module-row.ninth .module.third {background:url('../../../../../joulerefuel.blazonco.com/images/icons/set-your-scehdule-icon.png') no-repeat 0 0 transparent;}
+html .home .section3 .module-row.tenth .module.first {background:url('../../../../../joulerefuel.blazonco.com/images/icons/time_icon.png') no-repeat 0 0 transparent;}
+html .home .section3 .module-row.tenth .module.second {background:url('../../../../../joulerefuel.blazonco.com/images/icons/renewable_icon.png') no-repeat 0 0 transparent;}
+html .home .section3 .module-row.tenth .module.third {background:url('../../../../../joulerefuel.blazonco.com/images/icons/safe-and-secure-icon.png') no-repeat 0 0 transparent;}
+
+html .home .section4 {padding-top:155px;padding-bottom:155px;background-image: url('../../../../../joulerefuel.blazonco.com/images/section4-bg.jpg');}
+html .home .section4 h4 {color:#fff;}
+
+html .home .section5 {padding-top:90px;}
+html .home .section5 .text-module {position:relative;}
+html .home .section5 .text-module p {padding-bottom:0;}
+html .home #Content .section5 h3.title {font-weight:bold;text-shadow:0 0 7px rgba(0,0,0,.75);line-height:46px;position:absolute;top:141px;color:#fff;font-size:50px;margin-left: 0;width: 100%;float: none;border-left: 0;padding-left: 15px;}
+html .home #Content .section5 blockquote { display:none;   margin-left: 0;width: 100%;float: none;border-left: 0;padding-left: 0;font-size: 15px;padding:10px;position:absolute;top:0;background:rgba(0,0,0,.8);height:100%;}
+html .home #Content .section5 .module-row .module:hover blockquote {display:block;}
+html .home #Content .section5 blockquote p {padding-bottom:0;}
+html blockquote p, html #content blockquote p {color:#fff;}
+html #Content blockquote.success, html #Content blockquote.allgood {    margin-left: 0;width: 100%;float: none;padding-left: 11px;font-size: 17px;margin-bottom: 20px;border-left:0;margin-left:0;}
+
+html .home .section6 {padding-top:155px;padding-bottom:155px;background-image:url('../../../../../joulerefuel.blazonco.com/images/section6-bg.jpg');}
+html .home .section6 .newsletter-module {width:95%;margin:auto;}
+html .home .section6 .newsletter-module .name-entry {display:none;}
+html .home .section6 .newsletter-module h3, html .home .section6 .mailchimp-module h3 {font-size:30px;float:left;width:45%;line-height:50px;}
+html .home .section6 .newsletter-module .newsletter-content {width:50%;float:left;}
+html .home .section6 form.user-form fieldset {clear:none;float:left;width:63%;margin-right:8px;}
+html .home .section6 form.user-form fieldset, html .home .section6 form.user-form div.section-heading {padding:0;}
+html .home .section6 form.user-form fieldset legend label {top:0;margin:0;}
+html #Main.home .section6 form.user-form fieldset.text-entry input, html #Main form.user-form fieldset.text-entry input {color:#696969;text-indent:10px;float:left;height:51px;font-size:17px;font-style: italic;border-radius:5px;border:1px solid #c8c8c8;}
+html .home .section6 form.user-form fieldset.text-entry legend {display:none;}
+html .home .section6 form.user-form fieldset.buttons {width:auto;float:left;}
+html #Main.home .section6 form.user-form fieldset.buttons button {height:auto;float:left;border:0;cursor:pointer;}
+html form.user-form fieldset:hover {background-color:transparent;}
+
+html .indicates-required {display:none;}
+html .mc-field-group2, html .mc-field-group3, html .input-group, html .mailchimp-module h2 {display:none;}
+html .mailchimp-module h3, html .mc-field-group {float:left;}
+html .mc-field-group label {display: none;}
+html .mailchimp-module .mc-field-group {width:36%;margin-right:1%;}
+html .mailchimp-module .mc-field-group input.email {width:100%;color:#696969;text-indent:10px;height:51px;font-size:17px;font-style: italic;border-radius:5px;border:1px solid #c8c8c8;}
+html .mailchimp-module .clear input {cursor:pointer;border-radius:5px;padding:15px 40px;font-size:17px;font-weight:bold;background:#53c8ea;color:#fff!important;text-transform: uppercase;border:0;}
+html #Content .mailchimp-module blockquote.allgood {background:#fff;}
+
+html .section {background-size: cover;background-repeat: none;background-position: center;}
+
+html #Footer {margin-top:0;background:#464646;color:#fff;padding-top:35px;}
+html body #Footer {font-size:15px!important;}
+html #Footer a:hover {text-decoration: underline;}
+html #Footer h3 {color:#fff;text-transform: uppercase;font-size:15px;}
+html #Footer .blog-module h4 {font-size:15px;font-weight:normal;color:#fff;}
+html #Footer .void-footer {width:100%;}
+html #Footer .module-row {margin-top:0;}
+html #Footer .module-row.second {background:#313131;font-size:12px;color:#909090;}
+html #Footer .module-row.second a {color:#909090;}
+html #Footer .module-row > .void {width:1140px; margin:auto;}
+html #Footer .blog-module ul li {margin-bottom:20px;}
+html #Footer .blog-module .archives {display:none;}
+html #Footer .copyright-notice {display:none;}
+
+html .sub #Header h1, html .sub #Header h2 {padding-bottom:0;}
+
+html .sub #StockImage .text-module, html .sub #StockImage .text-block-component {margin:0;padding-top:50px;}
+html .sub #StockImage .text-module h4 {margin-bottom:50px;}
+
+html .service-areas #StockImage .text-module img, html .service-areas #StockImage .text-block-component img {width:100%;}
+
+html .service-areas #Body #Content, html .pricing #Body #Content {margin-top:0;}
+html .service-areas .section1 {color:#fff;padding-top:90px;background-image:url('../../../../../joulerefuel.blazonco.com/images/service-area-section-1.jpg');}
+html .service-areas .section1 h3, html .service-areas .section1 h4, html .pricing .section2 h3, html .pricing .section2 h4 {color:#fff;}
+html .service-areas .section1 .module-row .module.first, html .pricing .section2 .module-row .module.first {padding-top:56px;}
+
+html .service-areas #StockImage {min-height:auto;/*height:500px;background:url('//joulerefuel.blazonco.com/images/map.png') center 100px transparent;background-size:cover;*/}
+html .service-areas #StockImage p {padding-bottom:0;}
+html .service-areas .section2 {padding-top:90px;}
+html .service-areas .section2 a {position:relative;display:inline-block;}
+html .service-areas .section2 a:hover {top:-10px;}
+
+html .service-areas .module-row.third {width: 74%;margin: auto;}
+
+html #Main.service-areas form.user-form, html #Main.pricing form.user-form {width: 65%;margin: auto;}
+html #Main.service-areas form.user-form div.section-heading, html #Main.pricing form.user-form div.section-heading {display:none;}
+html #Main.service-areas form.user-form fieldset#yui-gen4, html #Main.pricing form.user-form fieldset#yui-gen5 {width: 39.5%;float: left;clear: none;margin-right:11px;}
+html #Main.service-areas form.user-form fieldset.buttons, html #Main.pricing form.user-form fieldset.buttons {float:left;clear:none;}
+
+html .pricing #StockImage .text-module {margin-top:190px;color:#fff;text-shadow:0 0 7px rgba(0,0,0,.75);}
+html .pricing #StockImage .text-module h5{font-weight:bold;}
+html .pricing #StockImage {background:url('../../../../../joulerefuel.blazonco.com/images/pricing_sub.jpg') no-repeat center top transparent;background-size:cover;}
+html .pricing #StockImage h4 {color:#fff;text-shadow:0 0 7px rgba(0,0,0,.75);margin-bottom:10px;}
+html .pricing .section {padding-top:90px;}
+html .pricing .section1 .module-row {min-height:160px;border-bottom: 1px solid #BDBDBD;margin-top:0;}
+html .pricing .section1 .module-row .module {min-height:270px;}
+html .pricing .section1 .module-row.second .module.first {padding-top:90px;}
+html .pricing .section1 .module-row .module.second.of-three, html .pricing .section1 .module-row .module.third.of-three {background:#eaeaea;}
+html .pricing .section1 .module-row .module h3.title {text-align:center;margin-bottom:40px;line-height: 36px;border-radius: 4px 4px 0 0;background:#4FCAEB;color:#fff;}
+html .pricing .section1 .module-row .module.first.of-two {width:31.07%;}
+html .pricing .section1 .module-row .module.second.of-two {width:66.14%;padding-top:50px;}
+html .pricing .section1 .section-void > .module {margin-bottom:90px;}
+html .pricing .section1 .price {font-size:36px;padding-bottom: 13px;display: inline-block;}
+html .pricing .section1 .module-row .module.of-two {min-height: 180px;}
+
+html .home .section1 table tr:nth-child(2) td {font-size:36px;padding-bottom: 13px;}
+
+html .pricing .section2 {color:#fff;background:url('../../../../../joulerefuel.blazonco.com/images/pricing_section2.png') no-repeat 0 0 transparent;background-size:cover;}
+html .pricing .section1 .module-row.fourth .component {margin-bottom:90px;}
+
+html #Content blockquote.allgood, html #Content blockquote.error-msg, html #Content blockquote.all-good {margin-left:0;width: 100%;float: none;border-left: 0;
+    padding-left: 0;color:#070707;background:none;text-align:center;
+    font-size: 15px;border:1px solid #666;padding:10px;}
+    html #Content blockquote.allgood p, html #Content blockquote.all-good p {color:#707070;}
+html .logout #Content blockquote.allgood, html .logout #Content blockquote.all-good {width:1140px;margin:auto;}
+html .create-an-account #StockImage, html .place-an-order #StockImage {min-height:184px;}
+html .create-an-account #StockImage .text-module h4, html .place-an-order #StockImage .text-module h4 {margin-bottom:0;}
+
+html .logout #StockImage {min-height:170px;}
+
+/*
+div.client-login-module + div#Module9 a.loggedin {display:none;}
+div.client-login-module + div#Module9 a.loggedout {display:inline-block;}
+div.client-login-module.logged-in + div#Module9 a.loggedin {display:inline-block;}
+div.client-login-module.logged-in + div#Module9 a.loggedout {display:none;}
+*/
+
+/*
+html #RefuelScheduleForm.user-form fieldset label {display:block;float:left;width:49%;}
+html #Main form.user-form fieldset label:nth-child(1)
+html #RefuelScheduleForm.user-form fieldset input[type=text], html #RefuelScheduleForm.user-form fieldset input[type=password], html #RefuelScheduleForm.user-form fieldset select {width:100%;}
+*/
+
+html .create-an-account #Body, html .place-an-order #Body  {padding-bottom:90px;background:url('../../../../../joulerefuel.blazonco.com/images/sign_up_bg.jpg') no-repeat 0 0 transparent; background-size:cover;min-height:630px;}
+html .create-an-account #StockImage, html .place-an-order #StockImage {color:#fff!important;}
+html .create-an-account #StockImage h4, html .place-an-order #StockImage h4 {color:#fff;}
+
+html form.user-form {font-size:15px;}
+html #RefuelScheduler {width:800px;margin:auto;background:#fff;border-radius:6px;}
+html #RefuelScheduleForm .section {padding:0;}
+html #RefuelScheduleForm {padding:20px;}
+html #RefuelScheduleForm.user-form fieldset input[type=text], html #RefuelScheduleForm.user-form fieldset input[type=password], html #RefuelScheduleForm.user-form fieldset select {width:100%;}
+html #RefuelScheduleForm.user-form fieldset label.full input[type=text], html #RefuelScheduleForm.user-form fieldset label.full input[type=password] {width:100%;}
+html #RefuelScheduleForm.user-form fieldset label {padding:6px;}
+html #RefuelScheduleForm.user-form fieldset p.section-text {text-align:left;padding:0;font-size:15px;}
+html #RefuelScheduleForm.user-form select {font-size:15px;font-weight:normal;}
+html #RefuelScheduleForm.user-form  input, html #RefuelScheduleForm.user-form  textarea {font-style:normal;}
+html #RefuelScheduler form.user-form input, html #RefuelScheduler form.user-form textarea {font-style:normal;}
+html #RefuelScheduleForm table tbody td {text-align:left;}
+html #RefuelScheduleForm.user-form fieldset.buttons {padding:10px;margin-bottom:0;}
+html #RefuelSteps {display:block;padding-left:0;padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;}
+html #RefuelSteps li {    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 147px;
+    text-align: left;
+    background: #D5DCDE;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;}
+html #RefuelSteps li.active {background:#4fcaeb;} 
+html #RefuelSteps-Register, html .place-an-order.logged-in #RefuelSteps-Vehicle {border-radius:6px 0 0 6px;}
+html #RefuelSteps-Schedule {border-radius:0 6px 6px 0;}
+html #RefuelScheduleForm.user-form fieldset label {vertical-align: middle;}
+html #RefuelScheduleForm.user-form #RefuelVehicleSection fieldset label {vertical-align:top}
+
+html .secureauth #StockImage {min-height:100px;}
+html .secureauth #Content .void-content {width:1140px;margin:auto;}
+html .secureauth #Body #Content {min-height:410px;}
+html #RefuelSchedulesTable tbody td, html #VehiclesTable tbody td, html #BillingAccountsTable tbody td, html #ShippingAddressTable tbody td {text-align:left;}
+html #Content.left-column #Content-Left .component {background:none;}
+html .secureauth #Content.left-column #Content-Left .component{padding-top:0;}
+html #Content a {color:#4FCAEB;}
+html .secureauth #Content-Left ul {padding-left:0;}
+html .secureauth #Content-Left ul li {list-style-type: none;}
+html #Main.secureauth  form.user-form legend {display:block;height:22px;}
+html #Main.secureauth #BillingAccountsTable form.user-form legend {height:22px;}
+html .secureauth table {margin-bottom:90px;}
+html .secureauth #Content-Left ul li:nth-child(7) {display:none;}
+
+html .sub.error blockquote{display:none;}
+
+html table {width:100%;border-collapse:collapse;}
+
+html .no-sections #Content {width:1140px;margin:auto;}
+html .no-sections #StockImage {min-height:90px;}
+html .no-sections #Content.left-column #Content-Left .component {padding:0;}
+
+html .contact-us .section-heading {display:none;}
+html #Main.contact-us  form.user-form legend {display:block;}
+
+html .error .void-content {width:1140px;margin:auto;}
+html .error #StockImage {min-height:100px;}
+
+html .blog #Content-Left h3 {font-size:18px;}
+html .blog .blog-content h3 {font-size:32px;}
+
+html .place-an-order .section {overflow:auto;}
+html #Header .extra .component.second p {line-height:20px;}
+html .sub h1 {line-height:39px;}
+html .blog #StockImage {height:0;}
+html .secureauth #StockImage {height:0;}
+
+/*html #RefuelSchedules {overflow:scroll;}
+
+html .secureauth #Content-Text > div {overflow:scroll;}*/
+
+html .account #MyAccount > h3 {display:none;}
+html .account #MyAccount .account-details > h4 {font-size:23px; line-height:24px;}
+html .account #MyAccount .account-details ul {list-style-type: none;padding-left:0;}
+html .account #MyAccount .account-details ul li {list-style-type: none;padding-left:0;}
+
+html .newsletter.activate #StockImage {min-height:30px;}
+
+html .service-areas #Content blockquote.allgood, html .service-areas #Content blockquote.error-msg, html .service-areas #Content blockquote.all-good {color:#fff;border:1px solid #fff;}
+html .service-areas #Content blockquote.allgood p, html .service-areas #Content blockquote.all-good p {color:#fff;}
+
+html .pricing #Content blockquote.allgood, html .pricing #Content blockquote.error-msg, html .pricing #Content blockquote.all-good {color:#fff;border:1px solid #fff;}
+html .pricing #Content blockquote.allgood p, html .pricing #Content blockquote.all-good p {color:#fff;}
+
+html .mapResp {display:none!important;}
+
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    html #Header h1 a  {
+        background-image: url('../../../../../joulerefuel.blazonco.com/images/logo2x.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media screen and (max-width: 1140px) {
+	html .section .section-void, html #Footer .module-row > .void, html .secureauth #Content .void-content, html .no-sections #Content {width:980px;}
+	html .module-row .module.of-three {width:31.07%;}
+	html .home #Content .section5 h3.title {line-height: 36px;font-size:40px;top:119px;}
+	html .home #StockImage .text-block-component .content {width:100%;}
+	html .section6 .section-void {width:100%;}
+	html .home .section6 .newsletter-module h3 {width:100%;text-align:center;}
+	html .home .section6 .newsletter-module .newsletter-content {float:none;margin:auto;position:relative;}
+	html .home .section6 form.user-form fieldset {width:60%;}
+	html #RefuelScheduleForm.user-form p.section-text {padding:0;}
+	html #Main.service-areas form.user-form fieldset#yui-gen4, html #Main.pricing form.user-form fieldset#yui-gen5 {width:100%;}
+	html .module-row .module.of-three {width: 31.9%;}
+    html .error .void-content {width:1102px;}
+    html .logout #Content blockquote.allgood, html .logout #Content blockquote.all-good {width:100%;}
+
+}
+
+@media screen and (max-width: 1102px) {
+	html .home #StockImage .text-block-component {margin-left:0;}
+	html .pricing .component {margin-bottom:0;}
+    html .error .void-content {width:1096px;}
+}
+
+@media screen and (max-width: 1102px) {
+	html .home .section6 form.user-form fieldset {width:100%}
+}
+
+@media screen and (max-width: 1096px) {
+    html .mailchimp-module {text-align:center;}
+    html .mailchimp-module h3, html .mc-field-group {float:none;}
+    html .home .section6 .newsletter-module h3, html .home .section6 .mailchimp-module h3 {width:100%;}
+    html .mailchimp-module .mc-field-group {width: 36%;margin: auto;margin-bottom: 10px;}
+    html .error .void-content {width:980px;}
+}
+
+
+@media screen and (max-width: 980px) {
+	html .section .section-void, html #Footer .module-row > .void, html .home .section1 .section-void, html .secureauth #Content .void-content, html .no-sections #Content  {width:767px;}
+	html #Header .extra .component a {font-size:13px;margin-left:7px;}
+  html .home #Content .section5 h3.title {font-size: 36px;top: 85px;padding-left:2px;}
+	html .module-row .module.of-three {width: 31.55%;}
+    html .error .void-content {width:900px;}
+}
+
+@media screen and (max-width: 900px) {
+	html .home #StockImage .text-block-component {top:51%;}
+    html .error .void-content {width:800px;}
+}
+
+@media screen and (max-width: 800px) { 
+	html #RefuelScheduler {width:100%;}
+	html #RefuelSteps li {width: 19%;}
+    html .error .void-content {padding-left:20px;padding-right:20px;width:100%;}
+}
+
+@media screen and (max-width: 767px) {
+  html #Header, html #Header.sticky {height:120px;position:relative;}
+  html #Header .extra, html #Header .extra.sticky {position: absolute;right:0;top:74px;padding-right:10px;}
+  html #Header .extra .component {}
+  html #Header .extra .module.fourth {margin-left:0;}
+  html #Header h1 a.sticky {top:20px;}
+
+	html .section .section-void, html #Footer .module-row > .void, html .home .section1 .section-void,html .secureauth #Content .void-content, html .no-sections #Content   {width:100%;}
+	html .section3 .section-void, html .section2 .section-void  {width:480px;}
+	html .section5 .section-void {width:370px;}
+	html .section5 .section-void .module-row .module {text-align:center;}
+	html .section-void .module-row .module.of-three {width:100%;}
+	html .home #Content .module-row.second .module.second, html .home #Content .module-row.third .module.first, html .home #Content .module-row.fourth .module.second, html .home #Content .module-row.fifth .module.first {padding-top:70px;}
+	html .home .section1 .section-void, html .sub .section-void {padding-left:10px;padding-right:10px;}
+	html .sub .section1 .module-row .module.of-two {width:100%;}
+	html .sub .section1 .module-row .module.first {text-align:center;}
+	html .home #StockImage .text-block-component {top:21%;}
+	/*html table {display:block;overflow-x:auto;}*/
+	html .pricing .section1 .module-row.second .module.first {padding-top:0;min-height:160px;}
+
+  html .place-an-order #StockImage, html .create-an-account #StockImage {padding-top:1px;height:auto;min-height:auto;}
+  html .place-an-order #StockImage  #StockImage .text-module, html .place-an-order #StockImage  #StockImage .text-block-component, html .create-an-account #StockImage  #StockImage .text-module, html .create-an-account #StockImage  #StockImage .text-block-component {margin-top:0;}
+  html .sub #StockImage{padding-top:0px;}
+  html .secureauth #StockImage {min-height:0;padding-top:1px;}
+  /*html .mapResp {display:block!important;}
+  html .mapFull {display:none!important;}*/
+  html .home .section3 .component {margin-bottom:50px;}
+  html .no-sections #StockImage {min-height:0;height:0;}
+  html .contact-us #Content {padding:0 20px;}
+
+    html .service-areas .module-row.third {width: 100%;margin: auto;}
+    html .service-areas .module-row.third .module {padding:2%;}
+    html .service-areas .section1 .module-row .module.first, html .pricing .section2 .module-row .module.first {padding-top:0;}
+
+    html .error #StockImage {min-height:0;}
+}
+
+
+@media screen and (max-width: 676px) {
+	html #RefuelSteps li {font-size:12px;line-height:14px;}
+}
+
+@media screen and (max-width: 667px) {
+  html #Header h1 a, html #Header h1 a.sticky {top:0px;width:215px;background-size:contain;}
+  html #Header .extra, html #Header .extra.sticky {top:44px;}
+  html #Header, html #Header.sticky {height:80px;}
+
+  html #StockImage, html .home #StockImage {padding-top:50px;height:334px;min-height:334px;}
+  html .home #StockImage .text-block-component, html .pricing #StockImage .text-module {margin-top:0;top:0;}
+  html .service-areas #StockImage {height:auto;}
+  html .error #StockImage {min-height:0;height:0;}
+}
+
+@media screen and (max-width: 630px) {
+	html .home .section1 .section-void {width:480px;}
+	html .home .section1 .module-row .module.of-two {width:100%;}
+	html .home .section1 .module-row.second .module.first, html .home .section1 .module-row.third .module.second, html .home .section1 .module-row.fourth .module.first, html .home .section1 .module-row.fifth .module.second   {display:none;}
+	html .module-row .module.of-three {width:100%;}
+	html #RefuelScheduleForm.user-form fieldset label.thirds {width:100%;}
+	html #RefuelScheduleForm.user-form #AddCreditCardForm fieldset label {width:100%;}
+    html .mailchimp-module .mc-field-group {width: 58%;margin: auto;margin-bottom: 10px;}
+
+}
+
+@media screen and (max-width: 570px) {
+	html #RefuelSteps li {font-size:10px;line-height:12px;border-radius:0!important;}
+	html .home .section1 .section-void, html .sub .section-void {padding-left:10px;padding-right:10px;}
+
+
+
+}
+
+@media screen and (max-width: 550px) {
+	html .home #StockImage {height:486px;min-height:484px;}
+	html .section-void {width:100%!important;padding-left:30px!important;padding-right:30px!important;}
+	html #RefuelScheduleForm.user-form fieldset label.quarter {width:100%;}
+	html #RefuelScheduleForm.user-form fieldset label {width:100%;}
+  html table {font-size:12px!important;line-height:14px;}
+  html .mailchimp-module h3 {line-height: 33px;}
+   html .mailchimp-module .mc-field-group {width: 100%;margin: auto;margin-bottom: 10px;}
+
+}
+
+@media screen and (max-width: 504px) {
+	html #RefuelSteps li {display: none;}
+	html #RefuelSteps li.active {display: block;line-height:20px;}
+	html #RefuelSteps li {width:auto;font-size:20px;}
+    html .service-areas .module-row.third .module {width:100%;padding:2%;}
+    html .service-areas .section2 .module-row.third .component {margin-bottom:0;}
+    html .service-areas .section2 .module-row.third .component.fifth {margin-bottom:50px;}
+}
+
+@media screen and (max-width: 480px) {
+	html #RefuelScheduleForm.user-form  fieldset.buttons button {padding:15px 19px;}
+	html .pricing .section1 .module-row .module {min-height:140px;}
+	html .pricing .section1 .module-row.fourth .component {margin-bottom:0;}
+
+}
+
+@media screen and (max-width: 410px) {
+  html table {font-size:10px!important;}
+  }
+
+
+
+
+

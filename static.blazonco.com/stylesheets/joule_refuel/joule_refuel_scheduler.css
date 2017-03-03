@@ -1,0 +1,173 @@
+#RefuelScheduleForm {
+	position: relative;
+	overflow: hidden;
+}
+
+#RefuelScheduleForm sup {
+	vertical-align: baseline;
+	color: red;
+}
+
+#RefuelScheduleForm button {
+	margin-left: 0.5em;
+	padding: 0.25em 0.75em;
+}
+
+#RefuelScheduleForm #ScheduleLaterButton {
+	float: left;
+}
+
+#RefuelScheduleForm p.required {
+	font-weight: bold;
+}
+
+#RefuelScheduleForm .note {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+#RefuelScheduleForm .section {
+	padding: 3em;
+}
+
+#RefuelSteps { display: table; width: 100%; text-align: center; }
+#RefuelSteps li { display: table-cell; list-style-type: none; }
+
+#RefuelScheduleForm.user-form fieldset {
+	text-align: center;
+}
+
+#RefuelScheduleForm.user-form fieldset.buttons {
+	padding: 1em 3em 1em 1em;
+	text-align: right;
+}
+
+#RefuelScheduleForm.user-form fieldset p,
+#RefuelScheduleForm.user-form fieldset legend,
+#RefuelScheduleForm.user-form fieldset label span,
+#RefuelScheduleForm.user-form fieldset label.left-align {
+	text-align: left;
+}
+
+#RefuelScheduleForm.user-form fieldset legend label {
+	width: auto;
+}
+
+#RefuelScheduleForm.user-form fieldset label {
+	vertical-align: top;
+	display: inline-block;
+	width: 49%
+}
+
+#RefuelScheduleForm.user-form fieldset label span {
+	padding-left: 5px;
+}
+
+#RefuelScheduleForm.user-form fieldset label.left,
+#RefuelScheduleForm.user-form fieldset label.left input {
+	text-align: left;
+}
+
+#RefuelScheduleForm.user-form fieldset label.thirds {
+	width: 32.3%;
+}
+
+#RefuelScheduleForm.user-form fieldset label.quarter {
+	width: 24%;
+}
+
+#RefuelScheduleForm.user-form fieldset label textarea,
+#RefuelScheduleForm.user-form fieldset label.full {
+	width: 98%;
+}
+
+#RefuelScheduleForm.user-form fieldset label.full input[type=text],
+#RefuelScheduleForm.user-form fieldset label.full input[type=password] {
+	width: 98%;
+}
+
+#RefuelScheduleForm.user-form fieldset label.auto-width {
+	width: auto;
+	text-align: left;
+}
+
+#RefuelScheduleForm.user-form fieldset label.schedule-type {
+	width: 36%;
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+#RefuelScheduleForm.user-form fieldset strong.or {
+	display: inline-block;
+	margin-top: 1em;
+	vertical-align: top;
+}
+
+#RefuelScheduleForm.user-form p.section-text {
+	margin-bottom: 2em;
+	padding: 0 3em;
+}
+
+#RefuelScheduleForm.user-form fieldset label.schedule-type strong {
+	display: inline-block;
+	padding: 0 2em;
+}
+
+#RefuelScheduleForm.user-form fieldset input[type=checkbox],
+#RefuelScheduleForm.user-form fieldset input[type=radio] {
+	width: auto;
+	vertical-align: middle;
+}
+
+#RefuelScheduleForm.user-form fieldset input[type=text],
+#RefuelScheduleForm.user-form fieldset input[type=password],
+#RefuelScheduleForm.user-form fieldset select {
+	width: 95%;
+}
+
+#RefuelScheduleForm.user-form fieldset select {
+	min-height: 21px;
+}
+
+#RefuelScheduleForm.user-form #billing_account\:exp_month,
+#RefuelScheduleForm.user-form #billing_account\:exp_year,
+#RefuelScheduleForm.user-form #billing_account\:cvv {
+	width: auto;
+	margin-right: 5px;
+}
+
+#RefuelScheduleForm.user-form #billing_account\:cvv {
+	width: 60%;
+}
+
+#RefuelScheduleForm.user-form #VehicleNotFound {
+	margin-left: 1em;
+}
+
+#RefuelScheduleForm table {
+	width: 100%;
+	margin-top: 1.5em;
+	border: 1px solid grey;
+	border-spacing: 0;
+}
+
+#RefuelScheduleForm table th {
+	padding: 0.5em;
+	border-bottom: 1px solid grey;
+}
+
+#RefuelScheduleForm table tbody td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.5em;
+	border-bottom: 1px solid grey;
+}
+
+#RefuelScheduleForm table tfoot td {
+	padding: 1em;
+}
+
+#RefuelScheduleForm table button {
+	padding: 0.25em 0.75em;
+	float: right;
+}
